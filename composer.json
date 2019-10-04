@@ -1,0 +1,54 @@
+{
+    "name": "sujalpatel/calculator",
+    "description": "Simple Add, Sub and Multi Functions",
+    "keywords": [
+        "sujalpatel",
+        "calculator"
+    ],
+    "homepage": "https://github.com/sujalpatel2209/calculator",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Sujal Patel",
+            "email": "sujalpatel022@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "5.8.*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "3.8.*",
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sujalpatel\\Calculator\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sujalpatel\\Calculator\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sujalpatel\\Calculator\\CalculatorServiceProvider"
+            ],
+            "aliases": {
+                "Calculator": "Sujalpatel\\Calculator\\CalculatorFacade"
+            }
+        }
+    }
+}
