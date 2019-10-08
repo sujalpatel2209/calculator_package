@@ -1,6 +1,7 @@
 # Very short description of the package
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/sujalpatel/calculator.svg?style=flat-square)](https://packagist.org/packages/sujalpatel/calculator)
+[![Build Status](https://travis-ci.org/sujalpatel2209/calculator_package.svg?branch=master)](https://travis-ci.org/sujalpatel2209/calculator_package)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/sujalpatel2209/calculator_package/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/sujalpatel2209/calculator_package/?branch=master)
 [![Code Intelligence Status](https://scrutinizer-ci.com/g/sujalpatel2209/calculator_package/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
 [![Total Downloads](https://img.shields.io/packagist/dt/sujalpatel/calculator.svg?style=flat-square)](https://packagist.org/packages/sujalpatel/calculator)
