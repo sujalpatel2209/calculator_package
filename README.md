@@ -1,11 +1,14 @@
-# Very short description of the package
+# Calculator
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/sujalpatel/calculator.svg?style=flat-square)](https://packagist.org/packages/sujalpatel/calculator)
-[![Build Status](https://img.shields.io/travis/sujalpatel/calculator/master.svg?style=flat-square)](https://travis-ci.org/sujalpatel/calculator)
-[![Quality Score](https://img.shields.io/scrutinizer/g/sujalpatel/calculator.svg?style=flat-square)](https://scrutinizer-ci.com/g/sujalpatel/calculator)
+[![Build Status](https://travis-ci.org/sujalpatel2209/calculator_package.svg?branch=master)](https://travis-ci.org/sujalpatel2209/calculator_package)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/sujalpatel2209/calculator_package/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/sujalpatel2209/calculator_package/?branch=master)
+[![Code Intelligence Status](https://scrutinizer-ci.com/g/sujalpatel2209/calculator_package/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
 [![Total Downloads](https://img.shields.io/packagist/dt/sujalpatel/calculator.svg?style=flat-square)](https://packagist.org/packages/sujalpatel/calculator)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
+
+Simple Calculation Function Addition, Subtraction and Multiplication.
+
 
 ## Installation
 
@@ -17,8 +20,34 @@ composer require sujalpatel/calculator
 
 ## Usage
 
+**Add Function**
 ``` php
-// Usage description here
+use Sujalpatel\Calculator\Calculator;
+
+public function addition()
+{
+    return Calculator::add(5,5); // Answer: 5 + 5 = 5
+}
+```
+
+**Sub Function**
+``` php
+use Sujalpatel\Calculator\Calculator;
+
+public function subtraction()
+{
+    return Calculator::sub(10,5); // Answer: 10 - 5 = 5
+}
+```
+
+**Multi Function**
+``` php
+use Sujalpatel\Calculator\Calculator;
+
+public function multiplication()
+{
+    return Calculator::multi(2,5); // Answer: 2 * 5 = 10
+}
 ```
 
 ### Testing
@@ -42,12 +71,9 @@ If you discover any security related issues, please email sujalpatel022@gmail.co
 ## Credits
 
 - [Sujal Patel](https://github.com/sujalpatel)
+- [Laravel Package Boilerplate](https://laravelpackageboilerplate.com)
 - [All Contributors](../../contributors)
 
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
-
-## Laravel Package Boilerplate
-
-This package was generated using the [Laravel Package Boilerplate](https://laravelpackageboilerplate.com).
