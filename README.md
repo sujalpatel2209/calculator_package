@@ -1,8 +1,8 @@
 # Very short description of the package
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/sujalpatel/calculator.svg?style=flat-square)](https://packagist.org/packages/sujalpatel/calculator)
-[![Build Status](https://img.shields.io/travis/sujalpatel/calculator/master.svg?style=flat-square)](https://travis-ci.org/sujalpatel/calculator)
-[![Quality Score](https://img.shields.io/scrutinizer/g/sujalpatel/calculator.svg?style=flat-square)](https://scrutinizer-ci.com/g/sujalpatel/calculator)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/sujalpatel2209/calculator_package/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/sujalpatel2209/calculator_package/?branch=master)
+[![Code Intelligence Status](https://scrutinizer-ci.com/g/sujalpatel2209/calculator_package/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
 [![Total Downloads](https://img.shields.io/packagist/dt/sujalpatel/calculator.svg?style=flat-square)](https://packagist.org/packages/sujalpatel/calculator)
 
 This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
